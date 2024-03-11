@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link href="css/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/aos.css">
+	<link href="css/slicknav.min.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Quick Flow</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="tt-magic-cursor">
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+		</div>
+	</div>
+	<div id="magic-cursor">
+		<div id="ball"></div>
+	</div>
+	<header class="text-center py-4">
+		<nav class="bg-transparent p-4">
+			<div class="container mx-auto flex justify-between items-center">
+				<!-- Logo -->
+				<div>
+					<a href="#" class="font-bold text-lg"><img src="/img/logo.png" alt="" srcset=""></a>
+				</div>
+
+				<!-- Menu -->
+				<div class="hidden md:flex flex-grow justify-center gap-6">
+					<div class="relative group submenu-group">
+						<button class="font-medium hover:text-gray-700 focus:outline-none">Solution <svg
+								class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+								<path d="M10 12l-6-6h12l-6 6z" />
+							</svg></button>
+						<div
+							class="submenu absolute bg-black mt-0 py-2 w-48 rounded-lg shadow-xl opacity-0 invisible transition-opacity transition-transform transform origin-top duration-300 ease-in-out delay-75 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+							<a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-800">Solution 1</a>
+							<a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-800">Solution 2</a>
+							<a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-800">Solution 3</a>
+						</div>
+					</div>
+					<a href="#" class="mx-4 font-medium hover:text-gray-300">Our Brands</a>
+					<a href="#" class="mx-4 font-medium hover:text-gray-300">Our Approach</a>
+					<a href="#" class="mx-4 font-medium hover:text-gray-300">Media</a>
+					<a href="#" class="mx-4 font-medium hover:text-gray-300">Blogs</a>
+				</div>
+
+				<!-- Buttons -->
+				<div class="hidden md:flex items-center">
+					<a href="#" class="login-text font-medium rounded px-4 py-2 mr-2">Login</a>
+					<a href="#" class="bg-btn-gradient text-white hover:bg-blue-600 rounded-3xl px-4 py-2">Sign Up</a>
+				</div>
+
+				<!-- Mobile Menu Button -->
+				<div class="md:hidden">
+					<button class="focus:outline-none">
+						<svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							viewBox="0 0 24 24" stroke="currentColor">
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+	<section id="hero-section" class="relative pt-40 pb-20 h-screen flex items-center justify-center flex-col">
+		<div class="hero-bg"></div>
+		<div class="container mx-auto text-center">
+			<div class="mx-auto w-10/12">
+				<h2 class="text-anime text-7xl font-bold mb-10 leading-normal">Unleashing the Future of
+					Retail for Challenger Brands</h2>
+				<p class="mb-10">Empowering challenger brands with cutting-edge technology to thrive in the future of
+					commerce.
+					Our platform is designed to elevate brands, connect retailers, and empower partners in the dynamic
+					world of retail</p>
+				<div class="banner-btn" data-aos="zoom-in"><a href="#"
+						class="bg-btn-gradient text-lg text-white hover:bg-blue-600 rounded-3xl px-8 py-4">Get started
+						<i class="fa-solid fa-chevron-right"></i></a></div>
+			</div>
+		</div>
+		<!-- Add content here -->
+	</section>
+	<section id="brand" class="py-20">
+		<div class="container mx-auto text-center">
+			<h2 class="text-anime text-5xl font-semibold text-center mb-10">Your Brand, Our Platform
+				Retail Redefined!</h2>
+			<div class="divider mb-10"></div>
+			<div class="brand-image" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+				<figure class="image-anime">
+					<img class="mx-auto" src="img/brand-image.png" alt="">
+				</figure>
+			</div>
+			<div class="brand-row flex text-left gap-5 justify-between">
+				<div class="brand-card w-1/3 brand-gradient p-4 rounded"  data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-center">
+					<h3 class="text-lg font-semibold mb-2">Championing Challenger Brands</h3>
+					<p>Unleashing the potential of emerging
+						brands, turning challengers into
+						champions through our tailored
+						distribution network.</p>
+				</div>
+				<div class="brand-card w-1/3 p-4 rounded" data-aos="fade-down" data-aos-anchor-placement="center-center">
+					<h3 class="text-lg font-semibold mb-2">Zone Mapped Brands</h3>
+					<p>Revolutionizing retail choices by showcasing
+						select brands in specific zones, optimizing
+						local preferences and promoting the "vocal
+						for local"mantra.</p>
+				</div>
+				<div class="brand-card w-1/3 brand-gradient p-4 rounded" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-center">
+					<h3 class="text-lg font-semibold mb-2">Partner Enabled Distribution</h3>
+					<p>Transforming distribution dynamics
+						by empowering local partners to
+						drive efficient, localized distribution
+						networks, creating a seamless
+						bridge between manufacturers</p>
+				</div>
+			</div>
+			<!-- Add content here -->
+		</div>
+	</section>
+	<section id="redefine" class="py-20">
+		<div class="container mx-auto">
+			<h2 class="text-anime text-4xl font-bold text-center uppercase mb-10">Redefining the <br>
+				Future of Retail Excellence</h2>
+			<div class="redifine-row flex justify-center">
+				<div class="redifine-card">
+					<div class="red-content" data-aos="zoom-in" data-aos-anchor-placement="center-center">
+						<h3 class="text-lg font-semibold mb-2">Speed and Precision</h3>
+						<p>Accelerating retail processes with precision and efficiency</p>
+					</div>
+					<figure class="image-scale" data-aos="fade-up-right" data-aos-anchor-placement="top-center">
+						<img class="" src="img/ic-1.png" alt="">
+					</figure>
+				</div>
+				<div class="redifine-card">
+					<div class="red-content" data-aos="zoom-in" data-aos-anchor-placement="center-center">
+						<h3 class="text-lg font-semibold mb-2">Data-Driven Insights</h3>
+						<p>Empowering businesses with data-driven insights for strategic decision-making</p>
+					</div>
+					<figure class="image-scale" data-aos="fade-down" data-aos-anchor-placement="top-center">
+						<img src="img/ic-2.png" alt="">
+					</figure>
+				</div>
+				<div class="redifine-card">
+					<div class="red-content" data-aos="zoom-in" data-aos-anchor-placement="center-center">
+						<h3 class="text-lg font-semibold mb-2">Market Access</h3>
+						<p>Connecting brands with retailers and partners on a nationwide scale</p>
+					</div>
+					<figure class="image-scale"  data-aos="fade-up-left" data-aos-anchor-placement="top-center">
+						<img src="img/ic-3.png" alt="">
+					</figure>
+				</div>
+
+
+			</div>
+		</div>
+		<!-- Add content here -->
+	</section>
+	<section id="supercharge" class="py-20">
+		<div class="container mx-auto">
+			<h2 class="text-anime font-bold text-4xl text-center mb-10">Supercharge your Brand with Our Technology, Data
+				and AI
+			</h2>
+			<div class="grid grid-cols-2 gap-4 mb-10">
+				<div class="sc-content" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+					<h4 class="sc-subtitle mb-2">
+						Last Mile Optimization
+					</h4>
+					<h3 class="text-4xl font-semibold mb-5 leading-normal">Leveraging AI, our platform
+						streamlines End to End
+						Supply Chain</h3>
+					<ul class="sc-list mb-10">
+						<li>Centralized Order Management</li>
+						<li>Dynamic Route Optimization</li>
+						<li>Cross-channel Inventory Visibility</li>
+					</ul>
+					<div class="sc-btn"><a href="#"
+							class="bg-yellow font-semibold hover:bg-blue-600 rounded-3xl px-4 py-2">Book A Demo <i
+								class="fa-solid fa-chevron-right"></i></a></div>
+				</div>
+				<div class="sc-image">
+					<figure class="reveal image-anime">
+						<img src="img/ic-5.png" alt="" srcset="">
+					</figure>
+				</div>
+			</div>
+			<div class="grid grid-cols-2 gap-4 mb-10">
+				<div class="sc-content" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+					<h4 class="sc-subtitle mb-2">
+						Real-time Analytics
+					</h4>
+					<h3 class="text-4xl font-semibold mb-5 leading-normal">QuikFlo goes beyond data
+						visualization to deliver
+						actionable insights</h3>
+					<ul class="sc-list mb-10">
+						<li>Instantaneous insights into sales trends</li>
+						<li>Generate adaptive real time reports on-the-fly</li>
+						<li>Providing actionable insights through powerful analytics</li>
+					</ul>
+					<div class="sc-btn"><a href="#"
+							class="bg-yellow font-semibold hover:bg-blue-600 rounded-3xl px-4 py-2">Book A Demo <i
+								class="fa-solid fa-chevron-right"></i></a></div>
+				</div>
+				<div class="sc-image">
+					<figure class="reveal image-anime">
+						<img src="img/ic-7.png" alt="" srcset="">
+					</figure>
+				</div>
+			</div>
+			<div class="grid grid-cols-2 gap-4 mb-10">
+				<div class="sc-content" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+					<h4 class="sc-subtitle mb-2">
+						AI Driven Prediction
+					</h4>
+					<h3 class="text-4xl font-semibold mb-5 leading-normal">Harnesses the power of
+						predictive analytics to
+						empower your  Brand</h3>
+					<ul class="sc-list mb-10">
+						<li>Predict future trends and demand patterns</li>
+						<li>Generate personalized product recommendations for Retailers</li>
+						<li>Benchmark your Product performance against industry standards</li>
+					</ul>
+					<div class="sc-btn"><a href="#"
+							class="bg-yellow font-semibold hover:bg-blue-600 rounded-3xl px-4 py-2">Book A Demo <i
+								class="fa-solid fa-chevron-right"></i></a></div>
+				</div>
+				<div class="reveal sc-image">
+					<figure class="image-anime">
+						<img src="img/ic-6.png" alt="" srcset="">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="smart-solutions" class="pb-20">
+		<div class="container mx-auto">
+			<h2 class="text-anime text-4xl font-bold text-center mb-10">Smart Solutions for your Brand Powered by
+				QuikFlow</h2>
+			<div class="ss-card py-32 px-6 rounded-3xl ss-pink mb-10" data-aos="zoom-in-up"
+				data-aos-anchor-placement="top-center">
+				<div class="ss-content w-96">
+					<h3 class="uppercase font-bold text-4xl">Marketplace
+						Visibility</h3>
+					<p>Enhance brand visibility on a national scale.</p>
+				</div>
+			</div>
+			<div class="ss-card py-32 px-6 rounded-3xl ss-green mb-10" data-aos="zoom-in-up"
+				data-aos-anchor-placement="top-center">
+				<div class="ss-content w-96">
+					<h3 class="uppercase font-bold text-4xl">Marketplace
+						Visibility</h3>
+					<p>Enhance brand visibility on a national scale.</p>
+				</div>
+			</div>
+			<div class="ss-card py-32 px-6 rounded-3xl ss-orange mb-10" data-aos="zoom-in-up"
+				data-aos-anchor-placement="top-center">
+				<div class="ss-content w-96">
+					<h3 class="uppercase font-bold text-4xl">Marketplace
+						Visibility</h3>
+					<p>Enhance brand visibility on a national scale.</p>
+				</div>
+			</div>
+			<div class="ss-card py-32 px-6 rounded-3xl ss-green mb-10" data-aos="zoom-in-up"
+				data-aos-anchor-placement="top-center">
+				<div class="ss-content w-96">
+					<h3 class="uppercase font-bold text-4xl">Marketplace
+						Visibility</h3>
+					<p>Enhance brand visibility on a national scale.</p>
+				</div>
+			</div>
+			<!-- Add content here -->
+		</div>
+	</section>
+	<section id="speciality" class="pb-20">
+		<div class="container mx-auto px-6 flex justify-between">
+			<div class="speciality-card sp-product sp-curated">
+				<h5 class="sp-subtitle">
+					QuickFlow
+				</h5>
+				<h3>Curated Product Range</h3>
+				<div class="sp-product-card one" data-aos="flip-left" data-aos-anchor-placement="center-center"></div>
+				<div class="sp-product-card two" data-aos="flip-up" data-aos-anchor-placement="center-center"></div>
+				<div class="sp-product-card three" data-aos="flip-left" data-aos-anchor-placement="center-center"></div>
+
+				<div class="sp-product-footer flex" data-aos="zoom-in">
+					<div class="sp-description">
+						Access curated a range of products from challenger brands
+					</div>
+					<div class="sp-icon">
+						<i class="fa-solid fa-plus"></i>
+					</div>
+				</div>
+			</div>
+			<div class="speciality-card sp-margin sp-competetive">
+				<h5 class="sp-subtitle">
+					QuickFlow
+				</h5>
+				<h3>Competitive Margin</h3>
+				<div class="sp-margin-card one" data-aos="zoom-in-down" data-aos-anchor-placement="center-center">
+					<figure>
+						<img src="/img/margin-card-one.png" alt="">
+					</figure>
+				</div>
+				<div class="sp-margin-card two" data-aos="zoom-in-left" data-aos-anchor-placement="center-center">
+					<figure>
+						<img src="/img/margin-card-two.png" alt="">
+					</figure>
+				</div>
+				<div class="sp-margin-card three" data-aos="zoom-in-right" data-aos-anchor-placement="center-center">
+					<figure>
+						<img src="/img/margin-card-three.png" alt="">
+					</figure>
+				</div>
+				<div class="margin-card-dot"></div>
+				<div class="sp-product-footer flex" data-aos="zoom-in">
+					<div class="sp-description">
+						Access curated a range of products from challenger brands
+					</div>
+					<div class="sp-icon">
+						<i class="fa-solid fa-plus"></i>
+					</div>
+				</div>
+			</div>
+			<div class="speciality-card sp-credit sp-retail">
+				<h5 class="sp-subtitle">
+					QuickFlow
+				</h5>
+				<h3>Unlock Retail Credit & Offers</h3>
+				<div class="sp-credit-card" data-aos="zoom-out" data-aos-anchor-placement="center-center"></div>
+				<div class="sp-product-footer flex" data-aos="zoom-in">
+					<div class="sp-description">
+						Access curated a range of products from challenger brands
+					</div>
+					<div class="sp-icon">
+						<i class="fa-solid fa-plus"></i>
+					</div>
+				</div>
+			</div>
+			<div class="speciality-card sp-efforts sp-effortless">
+				<h5 class="sp-subtitle">
+					QuickFlow
+				</h5>
+				<h3>Effortless Ordering</h3>
+				<div class="sp-efforts-card one" data-aos="zoom-in-up" data-aos-anchor-placement="center-center"></div>
+				<div class="sp-efforts-card two" data-aos="zoom-in-down" data-aos-anchor-placement="center-center"></div>
+				<div class="sp-product-footer flex" data-aos="zoom-in">
+					<div class="sp-description">
+						Access curated a range of products from challenger brands
+					</div>
+					<div class="sp-icon">
+						<i class="fa-solid fa-plus"></i>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="speciality-images flex justify-between">
+				<figure class="image-scale">
+					<img class="sp-curated" src="/img/ic-8.png" alt="" srcset="">
+				</figure>
+				<figure class="image-scale">
+					<img class="sp-competetive" src="/img/ic-9.png" alt="" srcset="">
+				</figure>
+				<figure class="image-scale">
+					<img class="sp-retail" src="/img/ic-10.png" alt="" srcset="">
+				</figure>
+				<figure class="image-scale">
+					<img class="sp-effortless" src="/img/ic-11.png" alt="" srcset="">
+				</figure>
+			</div> -->
+
+		</div>
+	</section>
+	<section id="Retailers" class="py-20">
+		<div class="container mx-auto">
+			<h2 class="text-anime text-4xl font-bold text-center mb-10">Empowering Retailers by Next Gen Platform</h2>
+			<div class="sr-card sr-blue p-12 rounded-3xl mb-10">
+				<div class="sr-content">
+					<h4 class="sr-subtitle">Curated Product Range</h4>
+					<h3 class="text-3xl font-semibold mb-5 leading-normal">
+						Access curated a
+						range of products
+						from challenger
+						brands
+					</h3>
+				</div>
+				<div class="sr-right">
+					<div class="sr-range-person" data-aos="fade-up-right" data-aos-anchor-placement="center-center">
+						<h4>Viknesh</h4>
+						<p>Founder</p>
+					</div>
+					<div class="sr-range-place" data-aos="fade-down-left" data-aos-anchor-placement="center-center">
+						<p>Bangalore</p>
+					</div>
+					<div class="sr-range-img" data-aos="zoom-in" data-aos-anchor-placement="center-center">
+						<img src="/img/sr-range.png" alt="" srcset="">
+					</div>
+				</div>
+			</div>
+			<div class="sr-card sr-pink p-12 rounded-3xl mb-10">
+				<div class="sr-content">
+					<h4 class="sr-subtitle">Effortless Ordering</h4>
+					<h3 class="text-3xl font-semibold mb-5 leading-normal">
+						Simplify the ordering
+						process with our
+						intuitive platform
+					</h3>
+				</div>
+				<div class="sr-right">
+					<div class="sr-range-person" data-aos="zoom-in-up" data-aos-anchor-placement="center-center">
+						<h4>Viknesh</h4>
+						<p>Founder</p>
+					</div>
+					<div class="sr-range-place" data-aos="fade-down" data-aos-anchor-placement="center-center">
+						<p>Bangalore</p>
+						<div class="sr-effort">
+							<div class="effor-bg-green"></div>	
+						</div>
+						<div class="sr-range-div" data-aos="fade-down" data-aos-anchor-placement="center-center">
+							<img src="/img/range-img.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sr-card sr-purple p-12 rounded-3xl mb-10">
+				<div class="sr-content">
+					<h4 class="sr-subtitle">Competitive Margins</h4>
+					<h3 class="text-3xl font-semibold mb-5 leading-normal">
+						Benefit from competitive
+						Margins and exclusive
+						deals
+					</h3>
+				</div>
+				<div class="sr-right">
+					<div class="sr-range-person" data-aos="zoom-out-down" data-aos-anchor-placement="center-center">
+						<h4>Viknesh</h4>
+						<p>Founder</p>
+					</div>
+					<div class="sr-competitive" data-aos="fade-down-left" data-aos-anchor-placement="center-center">
+						<div class="sr-range-place">
+							<p>Bangalore</p>
+						</div>
+						<div class="sr-sent">
+							<p>sent</p>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="sr-card sr-green p-12 rounded-3xl mb-10">
+				<div class="sr-content">
+					<h4 class="sr-subtitle">Unlock Retail Credit & Offers</h4>
+					<h3 class="text-3xl font-semibold mb-5 leading-normal">
+						Access to curated
+						Credit and offers
+						designed for you
+					</h3>
+				</div>
+				<div class="sr-right">
+					<div class="sr-range-person" data-aos="flip-left" data-aos-anchor-placement="center-center">
+						<h4>Viknesh</h4>
+						<p>Founder</p>
+					</div>
+					<div class="sr-alexa" data-aos="flip-right" data-aos-anchor-placement="center-center">
+						<h4>How can I help You?</h4>
+						<div class="sr-chatbot">
+							<h5>Alexa</h5>
+							<p>Chatbot</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="partner" class="py-20">
+		<div class="container mx-auto">
+			<h2 class="text-anime text-4xl font-bold text-center mb-10">Partner with us to join Retail Revolution at
+				your own City
+			</h2>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="parnter slider grid grid-cols-3 gap-4">
+							<div class="partner-content">
+								<h4 class="sr-subtitle">Unlock Retail Credit & Offers</h4>
+								<h3 class="text-3xl font-semibold mb-5 leading-normal">
+									Access to curated
+									Credit and offers
+									designed for you
+								</h3>
+							</div>
+							<div class="parnter-image col-span-2 flex justify-center items-center">
+								<h4 class="text-white">Mockups
+									DASh</h4>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="parnter slider grid grid-cols-3 gap-4">
+							<div class="partner-content">
+								<h4 class="sr-subtitle">Unlock Retail Credit & Offers</h4>
+								<h3 class="text-3xl font-semibold mb-5 leading-normal">
+									Access to curated
+									Credit and offers
+									designed for you
+								</h3>
+							</div>
+							<div class="parnter-image col-span-2 flex justify-center items-center">
+								<h4 class="text-white">Mockups
+									DASh</h4>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="parnter slider grid grid-cols-3 gap-4">
+							<div class="partner-content">
+								<h4 class="sr-subtitle">Unlock Retail Credit & Offers</h4>
+								<h3 class="text-3xl font-semibold mb-5 leading-normal">
+									Access to curated
+									Credit and offers
+									designed for you
+								</h3>
+							</div>
+							<div class="parnter-image col-span-2 flex justify-center items-center">
+								<h4 class="text-white">Mockups
+									DASh</h4>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="parnter slider grid grid-cols-3 gap-4">
+							<div class="partner-content">
+								<h4 class="sr-subtitle">Unlock Retail Credit & Offers</h4>
+								<h3 class="text-3xl font-semibold mb-5 leading-normal">
+									Access to curated
+									Credit and offers
+									designed for you
+								</h3>
+							</div>
+							<div class="parnter-image col-span-2 flex justify-center items-center">
+								<h4 class="text-white">Mockups
+									DASh</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+
+		</div>
+	</section>
+	<section id="contact" class="py-20">
+		<div class="container mx-auto">
+			<div class="grid grid grid-cols-3 gap-4">
+				<div class="contact-title">
+					<h2 class="text-5xl font-bold mb-2">Sign up </h2>
+					<h3 class="text-3xl font-medium">to our newsletter </h2>
+				</div>
+				<div class="col-span-2 form-div">
+					<h4 class="mb-5">Keep up with the latest Cadro news and insights</h4>
+					<form action="" method="post">
+						<div class="flex mb-5 gap-4">
+							<input class="" type="text" name="newsletter" id="name" placeholder="Name">
+							<input type="email" name="newsletter" id="email" placeholder="Email">
+						</div>
+						<p>You accept the Terms & Conditions and Privacy Policy by submitting your request.</p>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="text-center pt-10">
+		<section id="footer-gradient">
+
+		</section>
+		<section id="footer-dark" class="bg-black py-20 text-white">
+			<div class="container mx-auto">
+				<div class="grid grid-cols-2 gap-4 items-center">
+					<div class="footer-one">
+						<h3 class="text-4xl text-white font-bold text-left mb-10">QuikFlo</h3>
+						<div class="footer-social flex justify-start gap-2">
+							<a href="#"><img src="/img/linkedin.svg" alt="" srcset=""></a>
+							<a href="#"><img src="/img/x.svg" alt="" srcset=""></a>
+							<a href="#"><img src="/img/yt.svg" alt="" srcset=""></a>
+							<a href="#"><img src="/img/insta.svg" alt="" srcset=""></a>
+						</div>
+					</div>
+					<div class="footer-two">
+						<div class="grid grid-cols-2 gap-6">
+							<div class="footer-links text-left">
+								<h3 class="text-2xl font-semibold mb-2">Partner with us</h3>
+								<ul>
+									<li>As a Brand</li>
+									<li>As a City Partner</li>
+									<li>As a Retailer</li>
+								</ul>
+							</div>
+							<div class="footer-links text-left">
+								<h3 class="text-2xl font-semibold mb-2">Company</h3>
+								<ul>
+									<li>About Us</li>
+									<li>Careers</li>
+									<li>Our Approach</li>
+									<li>Contact Us</li>
+								</ul>
+							</div>
+							<div class="footer-links text-left">
+								<h3 class="text-2xl font-semibold mb-2">Legal</h3>
+								<ul>
+									<li>Terms of Service</li>
+									<li>Privacy Policy</li>
+								</ul>
+							</div>
+							<div class="footer-links text-left">
+								<h3 class="text-2xl font-semibold mb-2">Resource </h3>
+								<ul>
+									<li>Our Brands</li>
+									<li>Blogs</li>
+									<li>Media</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-divider">
+				</div>
+			</div>
+		</section>
+		<!-- Add a form here for newsletter sign up -->
+	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="/js/index.js"></script>
+	<script src="/js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<!-- Jquery Library File -->
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<!-- Bootstrap js file -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Validator js file -->
+	<script src="js/validator.min.js"></script>
+	<!-- SlickNav js file -->
+	<script src="js/jquery.slicknav.js"></script>
+	<!-- Swiper js file -->
+	<script src="js/swiper-bundle.min.js"></script>
+	<!-- Counter js file -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- Magnific js file -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- SmoothScroll -->
+	<script src="js/SmoothScroll.js"></script>
+	<!-- Parallax js -->
+	<script src="js/parallaxie.js"></script>
+	<!-- MagicCursor js file -->
+	<script src="js/gsap.min.js"></script>
+	<script src="js/magiccursor.js"></script>
+	<!-- Text Effect js file -->
+	<script src="js/splitType.js"></script>
+	<script src="js/ScrollTrigger.min.js"></script>
+	<!-- Main Custom js file -->
+	<script src="js/function.js"></script>
+</body>
+
+</html>
